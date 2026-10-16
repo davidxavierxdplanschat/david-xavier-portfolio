@@ -1,3 +1,3 @@
 import type { MetadataRoute } from 'next';
 export const dynamic='force-static';
-export default function sitemap():MetadataRoute.Sitemap{return[{url:process.env.NEXT_PUBLIC_SITE_URL||'https://david-xavier-neon-portfolio.keenbead17.chatgpt.site',lastModified:'2026-10-15',changeFrequency:'monthly',priority:1}]}
+export default function sitemap():MetadataRoute.Sitemap{const origin=process.env.NEXT_PUBLIC_SITE_URL||'https://david-xavier-portfolio.vercel.app';return ['','/en/'].map(path=>({url:origin+path,lastModified:'2026-10-16',changeFrequency:'monthly' as const,priority:1,alternates:{languages:{'pt-BR':origin+'/',en:origin+'/en/'}}}))}

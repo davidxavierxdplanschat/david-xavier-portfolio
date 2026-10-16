@@ -31,3 +31,6 @@ Edite `app/portfolio.tsx` para atualizar projetos e texto; `app/style.css` para 
 
 ## Ávix
 Seção e atalho flutuante para o chatbot Ávix, criado por David Xavier / XD Plans. Avatar fornecido pelo autor em public/avix.jpg. O botão abre https://wa.me/5511926265383; não envia mensagens automaticamente.
+
+## Idiomas / Languages
+Português em / e inglês em /en/. Cada idioma tem HTML lang, canonical, hreflang, metadados e Open Graph próprios. O PDF original permanece em português e é identificado como tal. As duas versões mantêm links PT/EN sem detecção automática que possa substituir a escolha do visitante.
