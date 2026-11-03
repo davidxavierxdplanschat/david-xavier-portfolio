@@ -8,7 +8,7 @@ export default function Page() {
   const personId = origin + '/#person';
   const websiteId = origin + '/#website';
   const profileId = origin + '/#profile';
-  const organizationId = 'https://xdplans.space/#organization';
+  const organizationId = 'https://xdplans.com.br/#organization';
   const data = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -47,7 +47,7 @@ export default function Page() {
         sameAs: [
           'https://github.com/davidxavierxdplanschat',
           'https://www.linkedin.com/in/david-a-xavier-2a101a208/',
-          'https://xdplans.space',
+          'https://xdplans.com.br',
         ],
         knowsAbout: [
           'JavaScript',
@@ -84,7 +84,7 @@ export default function Page() {
         '@type': 'Organization',
         '@id': organizationId,
         name: 'XD Plans',
-        url: 'https://xdplans.space',
+        url: 'https://xdplans.com.br',
         founder: { '@id': personId },
       },
     ],
